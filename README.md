@@ -15,12 +15,6 @@ Models are compared using **ROC-AUC** on a time-based validation set.
 └── README.md
 ```
 
-## Setup
-
-```bash
-pip install numpy pandas matplotlib scipy scikit-learn lightgbm catboost
-```
-
 ## How to run
 
 1. Put `train.csv` and `test.csv` in the `datasets/` folder.
