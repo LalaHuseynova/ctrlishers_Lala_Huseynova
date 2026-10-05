@@ -96,11 +96,13 @@ Fill this in after running the notebook (copy the numbers from `results_df`):
 
 | Model | Validation ROC-AUC |
 |---|---|
-| Blend | – |
-| LightGBM | – |
-| CatBoost | – |
-| Logistic Regression | – |
-| ... | – |
+1	LightGBM	0.681605	0.755311
+2	CatBoost	0.686758	0.755160
+3	Random Forest	0.688944	0.750544
+4	HistGradientBoosting	0.684728	0.749052
+5	Extra Trees	0.684884	0.739851
+6	Logistic Regression	0.660681	0.735491
+7	PCA + Logistic Regression	0.674578	0.724215
 
 ## Limitations
 
