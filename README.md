@@ -111,8 +111,3 @@ Fill this in after running the notebook (copy the numbers from `results_df`):
 - Recency weights are tested and used only for LightGBM.
 - The blend weights were chosen by hand, not optimized.
 
-## Possible improvements
-
-- Tune hyperparameters with Optuna inside time-series CV.
-- Learn the blend weights on out-of-fold predictions.
-- Add text features from the article titles, if they are available.
